@@ -1,0 +1,52 @@
+<resources>
+    <string name="appName">Photo Control</string>
+
+    <string name="start">Запуск</string>
+    <string name="clock">Часы</string>
+    <string name="setting">Настройки</string>
+    <string name="enterValue">Введите значение</string>
+    <string name="add">Добавить</string>
+    <string name="save">Сохранить</string>
+    <string name="aboutApp">О приложении</string>
+    <string name="pmIndicator">I I</string>
+    <string name="aboutAppMessage">Приложение для облегчения ведения фотоконтроля. Предназначено для внутреннего некоммерческого
+        распространения\n\nПредложения, сообщения об ошибках и недоработках присылайте на электронную почту</string>
+    <string name="email">frontier.dj@gmail.com</string>
+    <string name="aboutAppMessagePattern">%1$s %2$s</string>
+    <string name="ok">OK</string>
+    <string name="valueIsEmptyMessage">Значение пустое. Введите новое значение</string>
+    <string name="paramsListIsEmptyMessage">Лист значений пуст. Вы хотите сохранить пустой лист?</string>
+    <string name="no">НЕТ</string>
+    <string name="yes">ДА</string>
+
+    <string-array name="params">
+        <item>2215 РТБ</item>
+        <item>2315 РТБ</item>
+        <item>2316 РТБ</item>
+        <item>056 ОРЛВ</item>
+        <item>103 ОРЛВ</item>
+        <item>155 ОРЛВ</item>
+        <item>708 ОРЛВ</item>
+        <item>710 ОРЛВ</item>
+        <item>720 ОРЛВ</item>
+        <item>764 ОРЛР</item>
+        <item>766 ОРЛР</item>
+        <item>769 ОРЛР</item>
+        <item>770 ОРЛР</item>
+        <item>771 ОРЛР</item>
+        <item>19Ж6</item>
+        <item>35Д6</item>
+        <item>79К6</item>
+        <item>1РЛ130</item>
+        <item>1РЛ130 (І)</item>
+        <item>1РЛ130 (ІІ)</item>
+        <item>1РЛ131</item>
+        <item>1РЛ139</item>
+        <item>1РЛ141</item>
+        <item>5Н84А</item>
+        <item>5Н87</item>
+        <item>ДПНА</item>
+        <item>17 ОРЛР</item>
+        <item>1РЛ132</item>
+    </string-array>
+</resources>

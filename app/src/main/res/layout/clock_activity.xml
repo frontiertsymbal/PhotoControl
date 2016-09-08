@@ -1,0 +1,16 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/actionBackground"
+    >
+
+    <DigitalClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/digitalClockTextSize"
+        android:layout_gravity="center"
+        android:textColor="@color/digitalClock"
+        />
+
+</FrameLayout>

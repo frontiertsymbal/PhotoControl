@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="actionBackground">#000000</color>
+    <color name="digitalClock">#2f860b</color>
+    <color name="baseActionColor">#ffb5b5b5</color>
+    <color name="activityTitle">#a5327957</color>
+    <color name="spinnerLayoutColor">#74464646</color>
+    <color name="buttonBackgroundColor">#70484848</color>
+    <color name="buttonTextColor">#ffc9c9c9</color>
+
+</resources>

@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Margin -->
+    <dimen name="actionTopInfoMargin">7dp</dimen>
+    <dimen name="amPmIndicatorRightMargin">20dp</dimen>
+    <dimen name="amPmIndicatorBottomMargin">40dp</dimen>
+    <dimen name="spinnerMargin">10dp</dimen>
+    <dimen name="buttonMargin">10dp</dimen>
+    <dimen name="dateTextMargin">5dp</dimen>
+    <dimen name="activityTitleMargin">20dp</dimen>
+    <dimen name="addValueLayoutMargin">10dp</dimen>
+    <dimen name="valueEditTextMargin">10dp</dimen>
+
+    <!-- Padding -->
+    <dimen name="spinnerLayoutPadding">16dp</dimen>
+    <dimen name="buttonPadding">10dp</dimen>
+    <dimen name="deleteButtonPadding">10dp</dimen>
+    <dimen name="itemPadding">5dp</dimen>
+
+    <!-- TextSizes -->
+    <dimen name="paramTextSize">40sp</dimen>
+    <dimen name="digitalClockTextSize">120sp</dimen>
+    <dimen name="activityTitleTextSize">40sp</dimen>
+    <dimen name="dateTextSize">45sp</dimen>
+    <dimen name="paramItemTextSize">16sp</dimen>
+
+    <!-- Sizes -->
+    <dimen name="clockSize">250dp</dimen>
+
+</resources>

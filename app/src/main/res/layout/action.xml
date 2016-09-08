@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/actionBackground"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/actionTopInfoMargin"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/firstParamTextView"
+            style="@style/ParamTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:id="@+id/secondParamTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/ParamTextStyle"
+            />
+
+        <TextView
+            android:id="@+id/thirdParamTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/ParamTextStyle"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/fourthParamTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/paramTextSize"
+        android:layout_gravity="center_vertical|end"
+        android:layout_marginRight="@dimen/amPmIndicatorRightMargin"
+        android:layout_marginBottom="@dimen/amPmIndicatorBottomMargin"
+        android:textColor="@color/baseActionColor"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="bottom|center_horizontal"
+        >
+
+        <AnalogClock
+            android:id="@+id/analogClock"
+            android:layout_width="@dimen/clockSize"
+            android:layout_height="@dimen/clockSize"
+            android:layout_gravity="center"
+            android:dial="@drawable/clock_dial"
+            android:hand_hour="@drawable/clock_hand_hour"
+            android:hand_minute="@drawable/clock_hand_minute"
+            />
+
+        <TextView
+            android:id="@+id/fifthParamTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/dateTextSize"
+            android:layout_margin="@dimen/dateTextMargin"
+            android:textColor="@color/baseActionColor"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+</FrameLayout>

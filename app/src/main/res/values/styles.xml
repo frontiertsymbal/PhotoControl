@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="ParamTextStyle">
+        <item name="android:textSize">@dimen/paramTextSize</item>
+        <item name="android:textColor">@color/baseActionColor</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <style name="ButtonStyle">
+        <item name="android:layout_margin">@dimen/buttonMargin</item>
+        <item name="android:padding">@dimen/buttonPadding</item>
+        <item name="android:background">@color/buttonBackgroundColor</item>
+        <item name="android:textColor">@color/buttonTextColor</item>
+    </style>
+</resources>
